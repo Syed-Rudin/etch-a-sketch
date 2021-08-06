@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.grid {
+    height: inherit;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
+
+.clear {
+    position: absolute;
+}
